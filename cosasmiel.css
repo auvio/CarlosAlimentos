@@ -1,0 +1,107 @@
+*{
+margin: 0;
+color: #303030;
+}
+
+nav{
+position: relative;
+margin:0% 10% 0 10%;
+background-color: blanchedalmond;
+padding: 1%;
+}
+
+.fresh{
+margin: 10% 0 3% -10%;
+border-style: dotted;
+}
+
+.psetw{
+text-align: center;
+}
+
+.titulo{
+margin-left: 45%;
+margin-right:150%;
+margin-top: 5%;
+margin-bottom: -5%;
+text-align: center;
+font-family: sans-serif;
+}
+
+.list{
+font-family:sans-serif;
+list-style-type: circle;
+text-align: justify;
+border-radius: 30px;
+margin: 0% 20% 1% 28%;
+}
+
+.text{
+margin: 2% 10% 2% 10%;
+font-family: sans-serif;
+}
+
+.text p{
+margin: 3% 10%;
+}
+
+.hi{
+text-align: center; 
+border-radius: 12px;
+font-family: sans-serif; 
+}
+
+.main{
+padding: 2%;
+margin: 0 10%;
+background-color: ghostwhite;
+}
+
+.menu-side{
+font-family: sans-serif;
+right: 10%;
+position: absolute;
+}
+
+.herr{
+color: #303030;
+text-decoration: none;
+}
+
+.menu-side{
+transform: translateX(59%);
+position: absolute;
+transition: 15s;
+list-style-type: none;
+}
+
+.neto{
+position: relative;
+display:none;
+text-align: justify;
+padding: 10% 0% 10% 4%;
+background-color: #000;
+color: aliceblue;
+}
+
+.neto li{
+padding: 12%;
+}
+
+
+.neto a{
+padding: 10% 0 10%;
+text-decoration: none;
+color: aliceblue;
+}
+
+.idi{
+border-width: 1px;
+border-color: aliceblue;
+border-top-style: solid;
+
+}
+
+#checky{
+display: none;
+}

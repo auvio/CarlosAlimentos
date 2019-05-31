@@ -1,0 +1,151 @@
+*{
+margin: 0;
+}
+
+.header{
+background-color:blanchedalmond; 
+padding: 1%;
+margin-left: 10%;
+margin-right: 10%;
+}
+
+.title{
+text-align: center;
+font-family: 'lobster', cursive;
+color: #303030;
+}
+
+.main{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+background-color: white;
+margin-left: 10%;
+margin-right: 10%;
+}
+
+
+.recommendation{
+font-family: sans-serif;
+font-size: 25px;
+text-align: justify;
+padding-bottom: 3%;
+padding-top: 4%;
+margin: 0 4%;
+}
+
+.ingred{
+background-color: darksalmon;
+font-family: monospace;
+text-align: center;
+margin-left: 2%;
+margin-right: 55%;
+border-radius: 15px;
+clear: left;
+}
+
+.stanza{
+margin-left: 30%;
+margin-right: 30%;
+background-color: sandybrown;
+border-radius: 15px;
+font-family: monospace;
+text-align: center;
+}
+
+.paragraph{
+text-align: justify;
+margin: 0 15%;
+font-size: 20px;
+}
+
+/* primer parametro de una propiedad es top, el siguiente es lado izquierdo despues parte de abajo (botttom) dspues lado izquierdo */
+
+h3{
+font-family: monospace;
+text-align: center;
+padding: 20 0 5 0%;
+}
+.foot{
+background-color:#0A1318;
+padding: 2%;
+margin-left: 10%;
+margin-right: 10%;
+margin-top: auto;
+}
+
+.divide{
+padding:5 0%;
+   
+}
+
+
+img{
+transform: translate(240%, -60%);
+}
+
+.vidio{
+border: 1px dotted black;
+display: inherit;
+margin: 0 30 0 30%;
+}
+
+
+body{
+background-color: #904051;
+}
+
+.herr{
+color: #303030;
+text-decoration: none;
+}
+
+.menu-side{
+transition: 15s;
+list-style-type: none;
+font-family: sans-serif;
+right: 10%;
+position: absolute;
+}
+
+.neto{
+position: relative;
+display:none;
+text-align: justify;
+padding: 10% 0% 10% 4%;
+background-color: #000;
+color: aliceblue;
+}
+
+.neto li{
+padding: 12%;
+}
+
+.neto a{
+padding: 10% 0 10%;
+text-decoration: none;
+color: aliceblue;
+}
+
+.idi{
+border-width: 1px;
+border-color: aliceblue;
+border-top-style: solid;
+}
+#checky{
+display: none;
+}
+
+
+@media all(max-width: 360px) and(max-height: 320px)
+{
+.title
+{
+font-size: 45px;    
+}
+    
+.menu-side
+    {
+font-size: 20px;
+    }
+}

@@ -1,0 +1,106 @@
+*{
+margin: 0%;
+}
+
+nav{
+position: relative;
+margin: 0 10%;
+background-color: bisque;
+padding: 1%;
+text-align: center;
+font-family:'lobster';
+font-size: 100%;
+}
+
+.ingre{
+top: 1%;
+position: absolute;
+left: -4%;
+margin: 2% 10%;
+font-family: sans-serif;
+}
+
+li{
+position: relative;
+margin: -8% -30% -6%;
+}
+
+.main{
+background-color: antiquewhite;
+padding: 2%;
+margin: 0% 10%;
+}
+
+.pre{
+text-align: center;
+}
+
+.text{
+font-family:sans-serif;
+margin: 2%;
+}
+
+.text p{
+text-align: justify;
+margin: 2% 10%;
+}
+
+
+
+.padre{
+position: absolute;
+top: 0%;
+left: 30%;
+}
+
+.lona{
+position: relative;
+border-style: dashed;
+padding: 15%;
+margin-left: 12%;
+margin-right: 12%;
+}
+
+
+.herr{
+color: #303030;
+text-decoration: none;
+}
+
+.menu-side{
+list-style-type: none;
+font-family: sans-serif;
+right: 90%;
+position: absolute;
+}
+
+
+.neto{
+position: absolute;
+display:none;
+text-align: justify;
+padding: 10% 0% 10% 4%;
+background-color: #000;
+color: aliceblue;
+}
+
+.neto li{
+padding: 12%;
+}
+
+.neto a{
+padding: 10% 0 10%;
+text-decoration: none;
+color: aliceblue;
+}
+
+
+
+.idi{
+border-width: 1px;
+border-color: aliceblue;
+border-top-style: solid;
+}
+#checky{
+display: none;
+}

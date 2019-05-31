@@ -1,0 +1,147 @@
+*{
+margin: 0%;
+}
+
+body{
+background-color: floralwhite;
+padding: 1 8%;
+}
+
+.cabecera{
+text-align: center;
+font-family: 'lobster';
+padding: 1%;
+background-color: burlywood;
+text-decoration: underline;
+}
+
+h2{
+padding: 10%;   
+color: silver;
+}
+
+h3{
+font-size: 20;
+text-align: justify;
+color: silver;
+}
+
+.cimg{
+height: 50%;
+}
+
+
+[class="p1"], [class="p3"], h1{
+text-align: center;
+}
+
+.p1{
+text-align: justify;
+margin-left: 15%;
+color: white;
+}
+
+.text > p{
+text-align: justify;
+font-size:20;
+border-bottom-style: groove;
+border-width: 40%;
+color: silver;
+}
+
+
+.text{
+margin: 15%;
+text-align: center;
+}
+
+.sector{
+background-color: black;
+float: left;
+opacity: 0.9;
+}
+
+
+.c1{
+text-align: center;
+}
+
+footer{
+clear: both;
+padding:2%;
+background-color: rosybrown;
+}
+
+.demitase{
+color:palegreen;
+cursor: help;
+}
+
+
+
+
+.lateral{
+position: absolute;
+top: 28%;
+left: 10%;
+color: white;
+}
+
+.pop-up{
+overflow: visible;
+display: none;
+text-align: justify;
+background-color: gainsboro;
+position: absolute;
+margin: -75 9 -75 9%; 
+font-family: sans-serif;
+padding: 1%;
+transition: 6s;
+}
+
+.herr{
+font-family: sans-serif;
+right: 0%;
+color: aliceblue;
+text-decoration: none;
+}
+
+.menu-side{
+z-index: 1;
+transition: 15s;
+list-style-type: none;
+font-family: sans-serif;
+right: 10%;
+top: 3%;
+position: absolute;
+}
+
+.neto{
+position: relative;
+display:none;
+text-align: justify;
+padding: 10% 0% 10% 4%;
+background-color: #000;
+color: aliceblue;
+}
+
+.neto li{
+padding: 12%;
+}
+
+.neto a{
+padding: 10% 0 10%;
+text-decoration: none;
+color: aliceblue;
+}
+
+.idi{
+border-width: 1px;
+border-color: aliceblue;
+border-top-style: solid;
+}
+#checky{
+display: none;
+}
+
+

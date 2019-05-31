@@ -1,0 +1,171 @@
+*{
+margin: 0;
+}
+
+.pag
+{
+width: 100%;
+margin: 0 auto;
+overflow: hidden;
+}
+
+.topnav{
+margin-top: auto;
+padding:1%;
+min-width: 100%;
+background-color: navajowhite;
+z-index: 1;
+}
+
+.close{
+margin: 1% 0 0 0;
+float: right;
+position: fixed;
+}
+
+.signo{
+padding: 2%;
+}
+
+
+.title{
+background-color: floralwhite;
+margin: 1% 25% 3% 25%;
+}
+
+
+.check{
+display: none;
+}
+
+.menu{
+float: left;
+background-color: #303030;
+padding: 1%;
+/* este width es la anchura oficial del menú */
+width: 21%;
+min-width: 15%;
+/* esta es la altura del menú */
+height: auto;
+/* aqui es el raz de la izquierda de donde se encuentra el menú */
+margin-left: 0%;
+/* esta es una posición que se le da al menú y es quieta o fija */
+position: fixed;
+transition: all 1.5s ease;
+/* esta es la ubicación en la pantalla oficial del menú la misma que tenemos en el script para cerrarlo cuando se abra */
+margin: 0 -32%;
+/* esto es la imagen que tiene en un inicio y sus propiedades */
+background-image: url(tatli-cenneti.jpg);
+overflow: scroll;
+background-size: 100% 25%;
+background-repeat: no-repeat;
+z-index: 1;
+}
+
+
+.menu li{
+list-style-type: none;
+}
+
+.menu li a{
+text-decoration: none;
+text-align: center;
+margin: 2% 25% 2% 25%;
+padding: 10px 4% 40px 4%;
+}
+
+
+ .c, .e, .f, .g, .h, .i{
+display: block;
+min-width: 10%;
+min-height: 4%;
+font-size: 145%;
+color: silver;
+}
+
+.d, .i{
+border-top: solid 1px silver;
+} 
+
+.d{
+display: block;
+min-width: 10%;
+min-height: 4%;
+font-size: 145%;
+font-family: 'lobster' ,cursive;
+color: black;
+}
+
+.a{
+display: block;
+min-width: 10%;
+min-height: 4%;
+font-size: 145%;
+font-family: 'lobster' ,cursive;
+color: black;
+}
+
+
+.b
+{
+display: block;
+min-width: 10%;
+min-height: 4%;
+font-size: 145%;
+color: black;
+}
+
+.contenedor
+{
+transform: translate(15%, 9%);
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+max-width: 70%;
+height: 550px;
+border: solid black 1px;
+}
+
+
+.caja2 p
+{
+color: silver;
+text-align: justify;
+}
+
+.caja4
+{
+max-width: 50%;
+background-color: firebrick;
+height: 260px;
+}
+
+body{
+background-color: #204051;
+}
+
+@media screen(max-width:360px), (max-height:680px)
+{
+.menu
+{
+min-width: 200px;
+margin: 0 -57%;
+}
+    
+.caja2 p
+    {
+margin: 0 4%;
+    }
+}
+    
+    
+@media screen ,(min-width: 640px), (max-height:360px)
+{
+.menu
+{
+position: fixed; 
+height: 95%;
+}
+
+    
+}

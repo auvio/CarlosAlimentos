@@ -1,0 +1,93 @@
+*{
+margin: 0;
+}
+
+.lateral{
+
+}
+
+.encabezado{
+background-color: saddlebrown;
+text-align: center;
+color: oldlace;
+font-family: 'lobster', cursive;
+margin: 0 9%;
+padding: 1%;
+}
+
+h2{
+text-align: center;
+color: silver;
+}
+
+p{
+text-align: justify;
+color: white;
+margin: 0 5%;
+}
+
+.text{
+margin: 2 9%;
+background-color: #303030;
+height: auto;
+}
+
+img{
+max-width: 35%;
+}
+
+.touch{
+text-align: center;
+}
+
+.tabla{
+color: silver;
+margin: 0 3%;
+}
+
+
+.herr{
+right: 0%;
+color: #303030;
+text-decoration: none;
+}
+
+.menu-side{
+list-style-type: none;
+font-family: sans-serif;
+right: 13%;
+top: 4%;
+position: absolute;
+
+}
+
+.neto{
+position: relative;
+display:none;
+text-align: justify;
+padding: 10% 0% 10% 4%;
+background-color: #000;
+color: aliceblue;
+}
+
+.neto li{
+padding: 12%;
+}
+
+.neto a{
+padding: 10% 0 10%;
+text-decoration: none;
+color: aliceblue;
+}
+
+.idi{
+border-width: 1px;
+border-color: aliceblue;
+border-top-style: solid;
+}
+#checky{
+display: none;
+}
+
+
+

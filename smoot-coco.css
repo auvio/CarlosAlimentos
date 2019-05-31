@@ -1,0 +1,115 @@
+*{
+margin: 0;
+}
+
+.header{
+background-color: blanchedalmond;
+text-align: center;
+margin: 0 10%;
+padding: 1%;
+}
+
+.ping{
+font-family: 'lobster', cursive;
+}
+
+.main{
+background-color: white;
+padding: 2%;
+margin: 0 10%;
+border: solid 2px #f1f1f1;
+box-shadow: 0 0 10px rgba(0 0, 0, 8);
+overflow:visible;
+}
+
+.imagen{
+align-content: center;
+padding: 10 0%;
+}
+
+.that{
+padding: 2%;
+text-align: center;
+font-family: sans-serif;
+}
+
+.ing{
+background-color: darksalmon;
+margin-right: 40%;
+text-align: center;
+border-radius: 12px 12px 12px 12px;
+font-family: monospace;
+}
+
+.information{
+text-align: center;    
+}
+
+.stanza{
+text-align: center;
+background-color: khaki;
+border-radius: 12px 12px 12px 12px;
+font-family: monospace;
+margin-right: 30%;  
+margin-left: 30%;
+}
+
+h3{
+font-family: monospace;
+text-align: center;
+padding: 20 0 5 0%;
+}
+
+.foot{
+background-color:#0A1318;
+padding: 2%;
+margin-left: 10%;
+margin-right: 10%;
+margin-top: auto;
+}
+
+.vidio{
+border: 1px dotted black;
+display: inherit;
+margin: 0 30 0 30%;
+}
+
+body {
+background-color: #904051;
+}
+
+.menu-side{
+transition: 15s;
+list-style-type: none;
+font-family: sans-serif;
+right: 10%;
+position: absolute;
+}
+
+.neto{
+position: relative;
+display:none;
+text-align: justify;
+padding: 10% 0% 10% 4%;
+background-color: #000;
+color: aliceblue;
+}
+
+.neto li{
+padding: 12%;
+}
+
+.neto a{
+padding: 10% 0 10%;
+text-decoration: none;
+color: aliceblue;
+}
+
+.idi{
+border-width: 1px;
+border-color: aliceblue;
+border-top-style: solid;
+}
+#checky{
+display: none;
+}

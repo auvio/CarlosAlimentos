@@ -1,0 +1,146 @@
+*{
+margin: 0;
+}
+
+.naveg{
+margin: 0 10%;
+background-color: black;
+padding: 2%;
+border: #303030 solid 2px;
+}
+
+.imagen
+{
+min-width: 40%;
+}
+
+
+.naveg, pi{
+color: white;
+font-family:  'lobster' ,cursive;
+text-align: center;
+}
+
+.set{
+font-family: sans-serif;
+text-align: center;
+color: dimgrey;
+}
+
+.frape{
+width: 100%;
+height: 50%;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.div1{
+background-color:black;
+width: 50%;
+}
+
+.sector{
+text-align: justify;
+margin: 2% 10%;
+}
+
+.contenedor1
+{
+display: flex;
+flex-wrap: nowrap;
+flex-direction: column;
+transform: translateY(5%);
+}
+
+contenedor1 p
+{
+padding: 
+}
+
+.herr{
+right: 0%;
+color: aliceblue;
+text-decoration: none;
+}
+
+.menu-side{
+list-style-type: none;
+font-family: sans-serif;
+right: 13%;
+position: absolute;
+top: 5%;
+}
+
+.neto{
+position: relative;
+display:none;
+text-align: justify;
+padding: 10% 0% 10% 4%;
+background-color: #000;
+color: aliceblue;
+}
+
+.neto li{
+padding: 12%;
+}
+
+.neto a{
+padding: 10% 0 10%;
+text-decoration: none;
+color: aliceblue;
+}
+
+.idi{
+border-width: 1px;
+border-color: aliceblue;
+border-top-style: solid;
+}
+#checky{
+display: none;
+}
+
+
+
+
+
+
+
+
+@media screen and(max-width: 360px) and(max-height:640px)
+{
+.frape
+{
+max-width: 40%;  
+height: 25%;
+}
+    
+    
+.menu-side
+    {
+    position: absolute;
+    top: 3%;
+    }
+}
+
+
+
+@media screen (width:640px), (height:360px)
+{
+.contenedor1
+{
+transform: translateY(40%);
+}
+    
+.image
+    {
+width: 109%;
+    }
+
+    
+.menu-side
+    {
+    position: absolute;
+    top: 4%;
+    }
+}

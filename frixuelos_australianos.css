@@ -1,0 +1,112 @@
+*{
+margin: 0;
+}
+
+.nav{
+margin: 0 10%;
+background-color: bisque;
+padding: 2%;
+text-align: center;
+font-family:'lobster';
+font-size: 100%;
+}
+
+.main{
+padding: 1%;
+background-color: burlywood;
+margin: 0% 10%;
+}
+
+.paragraph{
+margin: 2% 10%;
+text-align: justify;
+}
+
+.lista{
+margin: 5% 0 5%;
+list-style-type: none;
+}
+
+.lista h3 {
+margin: 5% 0 5%;
+font-family: sans-serif;
+font-size: 100%;
+background-color: burlywood;
+width: 20%;
+text-align: center;
+}
+
+li{
+font-family: sans-serif;
+font-size: 100%;  
+}
+
+.false{
+left: 40%;
+position: relative;
+margin: 5% 0 5%;
+font-family: sans-serif;
+font-size: 100%;
+background-color:darksalmon;
+width: 20%;
+text-align: center;
+}
+
+img{
+margin-left: 30%;
+margin-top: -25%;
+}
+
+.text{
+text-align: justify;
+font-size: 130%;
+margin: 3% 15%;
+}
+
+.menu-side{
+font-family: sans-serif;
+right: 10%;
+position: absolute;
+}
+
+.herr{
+color: #303030;
+text-decoration: none;
+}
+
+.menu-side{
+transition: 15s;
+list-style-type: none;
+}
+
+.neto{
+display:none;
+text-align: justify;
+padding: 10% 0% 10%;
+background-color: #000;
+color: aliceblue;
+}
+
+.neto li{
+padding: 12%;
+}
+
+
+.neto a{
+padding: 10% 0 10%;
+text-decoration: none;
+color: aliceblue;
+}
+
+.idi{
+border-width: 1px;
+border-color: aliceblue;
+border-top-style: solid;
+
+}
+#checky{
+display: none;
+}
+
+body{
+}
